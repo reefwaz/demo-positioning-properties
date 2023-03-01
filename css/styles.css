@@ -79,15 +79,22 @@ ul {
 }
 
 .relative {
-    /* add relative properties here */
+    position: relative;
+    top: 40px;
+    left: 20px;
 }
 
 .relative-2 {
-    /* add relative-2 properties here */
+    width: 200px;
+    height: 75px;
+    border: 2px solid #544838;
+    position: absolute;
 }
 
 .absolute {
-    /* add absolute properties here */
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .absolute-2 {
@@ -104,5 +111,7 @@ ul {
 }
 
 .fixed {
-    /* add fixed properties here */
+    position: fixed;
+    top: 50%;
+    right: 0;
 }
